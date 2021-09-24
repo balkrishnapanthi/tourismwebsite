@@ -1,0 +1,321 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+
+    text-align: center;
+}
+.jumbotron-fluid{
+     padding-top:0px;
+     background: linear-gradient(to left,rgb(233, 233, 250),skyblue);
+}
+.navbar {
+    position: sticky;
+    position:-webkit-sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+}
+
+.motto {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+   background: linear-gradient(to bottom left ,skyblue,rgb(103, 103, 247));
+   
+}
+
+
+.mainmotto {
+
+    font-size:xx-large;
+    font-weight:500;
+}
+
+.minimotto{
+font-size:medium;
+}
+
+
+.card{
+
+    margin-top:20px;
+}
+
+
+.card img{
+
+    height:200px;
+}
+.carousel{
+
+    margin-bottom:20px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+    
+  }
+  .carousel-item img {
+
+    height:500px;
+  }
+  .carousel{
+   
+    padding:0px;
+    
+}
+.card-deck {
+      
+    clear:both;
+    padding-top: 10px;
+ }
+ #signupbtn{
+     background-color:blue;
+     /* margin-left:-10px; */
+     border :none;
+ }
+ #signupbtn:hover{
+     opacity:0.5;
+ }
+ .page-footer a {
+text-decoration: none;
+    color: black;
+ }
+ .page-footer a:hover {
+
+color: blue;
+ }
+
+ .card a{
+
+    color: black;
+ }
+
+
+   /* Modified by keshab 9/4s */
+.sign-IN form{
+    margin: auto;
+    /* border:0.1px solid #fafafa; */
+    box-shadow: 2px 2px 2px 2px #bbdefb;
+    border-radius: 2px;
+    padding: 50px;
+}
+.sign-IN{
+
+    margin-top:120px;
+}
+.sign-up form{
+    margin: 120px auto;
+    /* border:0.1px solid #fafafa; */
+    box-shadow: 2px 2px 2px 2px #bbdefb;
+    border-radius: 2px;
+    padding: 50px;
+   
+}
+
+    
+/* Modified by pritam 9/4s */
+.guideheading {
+    text-align: center;
+}
+.guideheading select{
+
+    margin-top:10px;
+}
+.guideheading button{
+
+    margin-top:10px;
+}
+
+/* modified by keshab 9/18 */
+
+.all-title-box{
+    background: url(images/tourismhero.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+
+.all-title-box h1{
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 11%;
+    font-size: 48px;
+    line-height: 0px;
+}
+
+span.m_1 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 5em;
+    display: block;
+}
+
+.contactF form{
+    margin: 100px auto;
+    border:0.1px solid #fafafa;
+    box-shadow: 2px 2px 2px 2px #bbdefb;
+    border-radius: 2px;
+    padding: 50px;
+}
+
+   /* created by manoj 19 sep2021 */
+
+.formclass{
+    display:block;
+        margin:auto;
+    }
+    #accimg{
+       padding: 0;
+    }
+
+
+ /* large screen */
+@media(min-width:992px){
+    .col-lg-1{
+        width:8.333%;
+    }
+    .col-lg-2{
+        width:16.666%
+    }
+    .col-lg-3{
+        width:25%;
+    }
+    
+    .col-lg-4{
+        width:33.333%;
+    }
+    .col-lg-5{
+        width:41.666667%;
+    }
+    .col-lg-6{
+        width:50%;
+    }
+    .col-lg-7{
+        width:58.333%;
+    }
+    .col-lg-8{
+        width:66.6667%;
+    }
+    .col-lg-9{
+        width:75%;
+    }
+    .col-lg-10{
+        width:83.333%;
+    }
+    .col-lg-11{
+        width:91.66667%;
+    }
+    
+    .col-lg-12{
+        width:100%;
+    }
+    
+    
+    }
+
+
+
+  
+    /* medium screen */
+    @media( min-width:577px) and ( max-width:991px){
+    
+        .col-md-1{
+            width:8.333%;
+        }
+        .col-md-2{
+            width:16.666%
+        }
+        .col-md-3{
+            width:25%;
+        }
+        
+        .col-md-4{
+            width:33.333%;
+        }
+        .col-md-5{
+            width:41.666667%;
+        }
+        .col-md-6{
+            width:50%;
+        }
+        .col-md-7{
+            width:58.333%;
+        }
+        .col-md-8{
+            width:66.6667%;
+        }
+        .col-md-9{
+            width:75%;
+        }
+        .col-md-10{
+            width:83.333%;
+        }
+        .col-md-11{
+            width:91.66667%;
+        }
+        
+        .col-md-12{
+            width:100%;
+    
+    
+    } 
+    
+    
+    }
+    
+    /* small screen */
+    
+    @media(max-width:576px){ 
+       
+        .col-sm-1{
+            width:8.333%;
+        }
+        .col-sm-2{
+            width:16.666%
+        }
+        .col-sm-3{
+            width:25%;
+        }
+        
+        .col-sm-4{
+            width:33.333%;
+        }
+        .col-sm-5{
+            width:41.666667%;
+        }
+        .col-sm-6{
+            width:50%;
+        }
+        .col-sm-7{
+            width:58.333%;
+        }
+        .col-sm-8{
+            width:66.6667%;
+        }
+        .col-sm-9{
+            width:75%;
+        }
+        .col-sm-10{
+            width:83.333%;
+        }
+        .col-sm-11{
+            width:91.66667%;
+        }
+        
+        .col-sm-12{
+            width:100%;
+        }
+       
+    }
+
